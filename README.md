@@ -27,12 +27,12 @@ Install pip packages according to python version lastest is python3
 
 - Copy app.py or download it from source repository
 - Configure database credentials and parameters 
-- COPY THE CODE FROM AND PASTE IN ANY DIRECTORY EX: /HOME/app.py
+- COPY THE CODE FROM APP.PY & PASTE IN ANY DIRECTORY EX: /HOME/app.py
 ## 3. Start Web Server
 
 Start web server
 
-    FLASK_APP=/home.app.py flask run --host=0.0.0.0
+    FLASK_APP=/home/app.py flask run --host=0.0.0.0
     
 ## 4. Test
 
