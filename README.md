@@ -19,18 +19,20 @@ This is used in the demonstration of development of Ansible Playbooks.
 ## 2. Install and Configure Web Server
 
 Install Python Flask dependency
+Install pip packages according to python version lastest is python3
+   
 
-    pip install flask
-    pip install flask-mysql
+    pip3 install flask
+    pip3 install flask-mysql
 
 - Copy app.py or download it from source repository
 - Configure database credentials and parameters 
-
+- COPY THE CODE FROM AND PASTE IN ANY DIRECTORY EX: /HOME/app.py
 ## 3. Start Web Server
 
 Start web server
 
-    FLASK_APP=app.py flask run --host=0.0.0.0
+    FLASK_APP=/home.app.py flask run --host=0.0.0.0
     
 ## 4. Test
 
