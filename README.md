@@ -28,6 +28,7 @@ Install pip packages according to python version lastest is python3
 - Copy app.py or download it from source repository
 - Configure database credentials and parameters 
 - COPY THE CODE FROM APP.PY & PASTE IN ANY DIRECTORY EX: /HOME/app.py
+- USE CAT COMMAND TO COPY CODE , EX : cat > /home/app.py & press CTRL + D to save .
 ## 3. Start Web Server
 
 Start web server
